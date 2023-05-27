@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
+
+* {
+   font-family: 'Saira Condensed', sans-serif;
+   padding: 0;
+   margin: 0;
+}
+
+html {
+   background-color: #000000;
+   background-size: cover;
+   color: #fff;
+}
+
+img{
+   background-image: url("img/fundonovo.jpg");
+   background-repeat: no-repeat, repeat;
+    background-attachment: scroll, fixed;
+    background-blend-mode: luminosity;
+    background-position: right;
+    
+}
+/* Donation-Symbol-PNG-Image 1 */
+
+.content{
+
+
+position: absolute;
+width: 131px;
+height: 119px;
+left: 110px;
+top: 185px;
+
+background: url(Donation-Symbol-PNG-Image);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.rodape{
+   position: absolute;
+   width: 303px;
+   height: 48px;
+   left: 60px;
+   top: 395px;
+   
+   
+   font-style: normal;
+   font-weight: 400;
+   font-size: 40px;
+   line-height: 48px;
+
+color: #f8f8f8;
+}
+.article{
+   position: absolute;
+
+left: 37px;
+top: 480px;
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 39px;
+}
+
+ul{
+   list-style: none;
+   display:flex;
+   justify-content: space-around;
+   flex-wrap: nowrap;
+  
+}
+
+ul img{
+   border-radius: 100%;
+   max-width:98%;
+	height:auto;
+   
+
+   
+   
+}
+
+
+
+.logop {
+   width: 100%;
+   margin-top: 0;
+   margin-left: 0;
+   margin-right: 0;
+   left: 0;
+   background-repeat: no-repeat;
+
+}
+
+/* Define o menu */
+#menu img {
+   margin: 7px 10px;
+   float: right;
+}
+#menu {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 50px;
+   border-bottom: 3px solid whitesmoke;
+   transition: background-color 0.3s ease-in-out;
+}
+
+#menu .item {
+   display: inline-block;
+   padding: 15px;
+   color: white;
+   text-decoration: none;
+   font-size: 17px;
+   margin: 7px 10px;
+   margin-top: 3px;
+}
+
+/* Nova classe a ser atribuída ao elemento com os estilos desejados */
+.mudaCor {
+   background-color: #d6d8dd;
+   color: white;
+}
+
+#body-wrapper {
+   margin-top: 0px;
+}
+
+.dropdown {
+   position: relative;
+   display: inline-block;
+
+}
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   padding: 12px 16px;
+   z-index: 1;
+   border-radius: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+
+.dropdown span {
+   text-decoration: none;
+   color: white;
+}
+
+.dropdown a {
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+}
+
+.dropdown a:hover p {
+   background-color: #00071a;
+   border-radius: 4px;
+   color: white;
+}
+
+
+
+
+::-webkit-scrollbar-track{
+   background-color: #2c2c31;
+ }
+ 
+ ::-webkit-scrollbar-thumb{
+ 
+   background-color: #7c7c7c;
+ }
+ ::-webkit-scrollbar{
+
+   width:8px;
+ }
+ 
+ /*tamanhos de telas para a tela se adequar conforme a tela*/
+ @media (max-width:768px) {
+   :root{
+     font-size:19px;
+   }
+}
+ 
+ @media (max-width:800px) {
+   :root{
+     font-size:18px;
+   }
+}
+@media (max-width:1024px) {
+   :root{
+     font-size:18px;
+   }
+}
+@media (max-width:768px) {
+   :root{
+     font-size:21px;
+   }
+}
+ 
